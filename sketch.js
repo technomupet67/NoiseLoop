@@ -64,6 +64,7 @@ function setup() {
     // for the gui
     gui = createGui("Parameters for Scribles on fire !");
     gui.addGlobals('rad','m','nperiod');
+    gui.setPosition(20,200);
     if (visible) gui.show();
     else gui.hide();
 
