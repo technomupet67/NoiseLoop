@@ -23,7 +23,7 @@ var capturer = new CCapture({
 
 // stuff for the gui
 var gui;
-var visible = false;
+var visible = true;
 
 var rad = 2.5;
 var radMin = 0.1;
