@@ -23,7 +23,6 @@ var capturer = new CCapture({
 
 // stuff for the gui
 var gui;
-var visible = true;
 
 var rad = 2.5;
 var radMin = 0.1;
@@ -136,3 +135,4 @@ function draw() {
         capturer.capture(canvas);
     }
 }
+var visible = true;
